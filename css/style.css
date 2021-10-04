@@ -1,0 +1,109 @@
+*,
+*::before,
+*::after {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+li {
+   list-style: none;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-weight: inherit;
+   font-size: inherit;
+}
+img {
+   vertical-align: top;
+}
+html,
+body {
+   height: 100%;
+}
+html {
+   font-size: 16px; /* по умолчанию */
+}
+body {
+   line-height: 1;
+}
+.wrapper {
+   min-height: 100%;
+   overflow: hidden;
+   padding: 20px;
+}
+.header {
+   display: inline-block;
+   background-color: deeppink;
+
+   padding: 100px;
+   width: 400px;
+   height: 400px;
+   margin: 20px 20px 150px 20px;
+   border-radius: 50%;
+   box-shadow: 100px 100px 10px 20px lightblue;
+}
+.img {
+   display: block;
+   max-width: 800px;
+   max-height: 400px;
+   margin: 0px auto 40px;
+   outline: 20px solid greenyellow;
+}
+.contain {
+   background-color: indianred;
+   border: 5px dashed #6494ed;
+   max-width: 600px;
+   max-height: 400px;
+   padding: 20px;
+   margin: 0px 0px 0px auto;
+}
+.task {
+   margin: 20px 20px 20px 20px;
+}
+.krug {
+   background-color: purple;
+
+   font-size: 14px;
+   width: 200px;
+   height: 200px;
+   padding: 50px 10px 10px 10px;
+
+   border: 5px solid palegreen;
+
+   border-radius: 50%;
+   text-align: center;
+}
+.divtext {
+   background-color: rgb(255, 255, 255);
+   opacity: 50%;
+}
+.span {
+   border: 5px solid red;
+}
+.divtask4 {
+   background-color: blue;
+   border-top: 10px dotted greenyellow;
+   border-right: 5px solid red;
+   border-left: 15px dashed pink;
+   border-bottom: 20px dashed springgreen;
+   width: 400px;
+   height: 400px;
+   padding: 100px;
+}
+.link {
+   background-color: springgreen;
+   display: inline-block;
+   box-shadow: 20px 20px 20px 20px coral;
+}
